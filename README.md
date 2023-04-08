@@ -1,11 +1,11 @@
 # vite-ydk-loader
 
-Only for `Node.js`.
+A vite plugin allows to import *.ydk file in Node.js.
 
 ## Install
 
 ```bash
-$ pnpm install
+$ pnpm install vite-ydk-loader -D
 ```
 
 ## Usage
