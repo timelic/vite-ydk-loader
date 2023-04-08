@@ -1,0 +1,29 @@
+{
+  "name": "vite-ydk-loader",
+  "version": "0.0.1",
+  "description": "A vite plugin allows to import *.ydk file.",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "keywords": [],
+  "authors": [
+    "i@timel.ink"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "compiled"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "father": "^4.1.2"
+  }
+}
